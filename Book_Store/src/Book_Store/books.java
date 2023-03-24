@@ -21,187 +21,312 @@ class price
 	}
 }
 
-class literary
+class literary implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("Mad Honey");
 		System.out.println("The Passenger");
 		System.out.println("Lucy by the Sea");
 		System.out.println("The Goldfinch");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class mystery
+class mystery implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("The Silent Patient");
 		System.out.println("A Good Girl's Guide To Murder");
 		System.out.println("The Big Sleep");
 		System.out.println("One Of Us Is Lying");
+
+		System.out.println("*********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class horror
+class horror implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("The Haunting of Hill House");
 		System.out.println("Interview with the Vampire");
 		System.out.println("Mexican Gothic");
 		System.out.println("Hell House");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class history
+class history implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("The Guns of August");
 		System.out.println("Homo Deus");
 		System.out.println("History of Modern India");
 		System.out.println("The Last Mughal");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class science
+class science implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("Neuromancer");
 		System.out.println("The Time Machine");
 		System.out.println("Project Hail Mary");
 		System.out.println("The Long Way to a Small, Angry Planet");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class action
+class action implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("Fire and Blood");
 		System.out.println("The 6:20 Man");
 		System.out.println("The Sea of Monsters");
 		System.out.println("Map of Bones");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class biography
+class biography implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("Shoe Dog");
 		System.out.println("Steve Jobs");
 		System.out.println("A Promised Land");
 		System.out.println("The Autobiography of Malcolm X");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class finance
+class finance implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("MONEY Master the Game");
 		System.out.println("Broke Millennial");
 		System.out.println("The Little Book of Common Sense Investing");
 		System.out.println("Coffee Can Investing");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class spiritual
+class spiritual implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("A New Earth");
 		System.out.println("The Four Agreements");
 		System.out.println("Peace Is Every Step");
 		System.out.println("The Book of Joy");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class mythology
+class mythology implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("Ramayana");
 		System.out.println("Asura: Tale of the Vanquished");
 		System.out.println("Rise of Kali - Duryodhana's Mahabharata");
 		System.out.println("Dharmayoddha Kalki: Avatar of Vishnu");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class selfhelp
+class selfhelp implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("The 7 Habits of Highly Effective People");
 		System.out.println("Who Moved My Cheese?");
 		System.out.println("The Monk Who Sold His Ferrari");
 		System.out.println("Ikigai: The Japanese Secret to a Long and Happy Life");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class crime
+class crime implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
 		System.out.println("In Cold Blood");
 		System.out.println("Murder on the Orient Express");
 		System.out.println("Gone Girl");
 		System.out.println("Midnight in the Garden of Good and Evil");
+
+		System.out.println("********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
 
-class java
+class java implements goodbye
 {
 	public void same()
 	{
 		System.out.println("");
 		System.out.println("YOU MAY ALSO LIKE");
 		System.out.println("**********************");
+		System.out.println("");
+		System.out.println("");
 		System.out.println("Effective Java");
 		System.out.println("Java Concurrency in Practice");
 		System.out.println("Optimizing Java");
 		System.out.println("Java Performance");
+
+		System.out.println("*********************************************");
+		System.out.println("");
 	}
+
+	public void goodbye()
+		{
+			System.out.println("Visit Again For Such Great Recommodation");
+		}
 }
+
+interface goodbye
+{
+	public void goodbye();
+}
+
+
 class books
 {
 	public static void main(String[] args) 
@@ -211,7 +336,14 @@ class books
 		System.out.println("WELCOME TO BOOKFLIX AND CHILL");
 		System.out.println("==================================");
 
+		System.out.println("");
+
+		System.out.println("*** If you don't like to read, you haven't found the right book.- J.K. Rowling ***");
+
+		System.out.println("");
+
 		System.out.println("Select the Genre");
+		System.out.println("========================");
 		System.out.println();
 
 		System.out.println("Enter 1 for Literary Fiction");
@@ -276,6 +408,7 @@ class books
 
 									literary sm1=new literary();
 									sm1.same();
+									sm1.goodbye();
 								break;
 
 								case "The Hobbit": System.out.println("***Author: J.R.R.TOLKIEN ***");
@@ -291,6 +424,7 @@ class books
 
 									literary sm2=new literary();
 									sm2.same();
+									sm2.goodbye();
 								break;
 
 								case "Life Of Pi": System.out.println("***Author: YANN MARTEL ***");
@@ -306,6 +440,7 @@ class books
 
 									literary sm3=new literary();
 									sm3.same();
+									sm3.goodbye();
 								break;
 
 								case "The Alchemist": System.out.println("***Author: PAULO COELHO ***");
@@ -321,6 +456,7 @@ class books
 
 									literary sm4=new literary();
 									sm4.same();
+									sm4.goodbye();
 								break;
 
 								case "A Little Life": System.out.println("***Author: HANYA YANAGIHARA ***");
@@ -336,6 +472,7 @@ class books
 
 									literary sm5=new literary();
 									sm5.same();
+									sm5.goodbye();
 								break;
 
 								default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -382,6 +519,7 @@ class books
 
 								mystery sm6=new mystery();
 								sm6.same();
+								sm6.goodbye();
 							break;
 
 							case "The Last Thing He Told Me" :  System.out.println("***Author: LAURA DAVE ***");
@@ -397,6 +535,7 @@ class books
 
 								mystery sm7=new mystery();
 								sm7.same();
+								sm7.goodbye();
 							break;
 
 							case "In The Woods" :  System.out.println("***Author: TANA FRENCH ***");
@@ -411,6 +550,7 @@ class books
 
 								mystery sm8=new mystery();
 								sm8.same();
+								sm8.goodbye();
 							break;
 
 							case "Shutter Island" :  System.out.println("***Author: DENNIS LEHANE ***");
@@ -426,6 +566,7 @@ class books
 
 								mystery sm9=new mystery();
 								sm9.same();
+								sm9.goodbye();
 							break;
 
 							case "Sharp Objects" :  System.out.println("***Author: GILLIAN FLYNN ***");
@@ -440,6 +581,7 @@ class books
 
 								mystery sm10=new mystery();
 								sm10.same();
+								sm10.goodbye();
 							break;
 
 							case "My Sister The Serial Killer" :  System.out.println("***Author: OYINKAN BRAITHWAITE ***");
@@ -455,6 +597,7 @@ class books
 
 								mystery sm12=new mystery();
 								sm12.same();
+								sm12.goodbye();
 							break;
 
 							case "Da Vinci Code" :  System.out.println("***Author: DAN BROWN ***");
@@ -469,6 +612,7 @@ class books
 
 								mystery sm13=new mystery();
 								sm13.same();
+								sm13.goodbye();
 							break;
 
 							case "Bird Box" :  System.out.println("***Author: JOSH MALERMAN ***");
@@ -483,6 +627,7 @@ class books
 
 								mystery sm14=new mystery();
 								sm14.same();
+								sm14.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -526,6 +671,7 @@ class books
 
 								horror sm15=new horror();
 								sm15.same();
+								sm15.goodbye();
 							break;
 
 							case "Come Closer": System.out.println("***Author: SARA GRAN ***");
@@ -541,6 +687,7 @@ class books
 
 								horror sm16=new horror();
 								sm16.same();
+								sm16.goodbye();
 							break;
 
 							case "The Woman in Black": System.out.println("***Author: SUSAN HILL ***");
@@ -556,6 +703,7 @@ class books
 
 								horror sm17=new horror();
 								sm17.same();
+								sm17.goodbye();
 							break;
 
 							case "The Silence Of The Lambs": System.out.println("***Author: THOMAS HARRIS ***");
@@ -571,6 +719,7 @@ class books
 
 								horror sm18=new horror();
 								sm18.same();
+								sm18.goodbye();
 							break;
 
 							case "The Shining": System.out.println("***Author: STEPHEN KING ***");
@@ -585,6 +734,7 @@ class books
 
 								horror sm19=new horror();
 								sm19.same();
+								sm19.goodbye();
 								break;
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
 			}
@@ -627,6 +777,7 @@ class books
 
 								history sm20=new history();
 								sm20.same();
+								sm20.goodbye();
 							break;
 
 							case "One Hundred Years Of Solitude": System.out.println("***Author: GABRIEL GARCIA MARQUEZ ***");
@@ -642,6 +793,7 @@ class books
 
 								history sm21=new history();
 								sm21.same();
+								sm21.goodbye();
 							break;
 
 							case "Human Acts": System.out.println("***Author: HAN KANG ***");
@@ -657,6 +809,7 @@ class books
 
 								history sm22=new history();
 								sm22.same();
+								sm22.goodbye();
 							break;
 
 							case "War And Peace": System.out.println("***Author: LEO TOLSTOY ***");
@@ -674,6 +827,7 @@ class books
 
 								history sm23=new history();
 								sm23.same();
+								sm23.goodbye();
 							break;
 
 							case "The Girl With The Pearl Earrings": System.out.println("***Author: TRACY CHEVALIER ***");
@@ -689,6 +843,7 @@ class books
 
 								history sm24=new history();
 								sm24.same();
+								sm24.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -733,6 +888,7 @@ class books
 
 								science sm25=new science();
 								sm25.same();
+								sm25.goodbye();
 							break;
 
 							case "Hitchhiker's Guide To Galaxy": System.out.println("***Author: DOUGLAS ADAMS and EION COLFER and THOMAS TIDHOLM ***");
@@ -748,6 +904,7 @@ class books
 
 								science sm26=new science();
 								sm26.same();
+								sm26.goodbye();
 							break;
 
 							case "Fahrenheit 451": System.out.println("***Author: RAY BRADBURY ***");
@@ -763,6 +920,7 @@ class books
 
 								science sm27=new science();
 								sm27.same();
+								sm27.goodbye();
 							break;
 
 							case "The Handmaid's Tale": System.out.println("***Author: MARGARET ATWOOD ***");
@@ -779,6 +937,7 @@ class books
 
 								science sm28=new science();
 								sm28.same();
+								sm28.goodbye();
 							break;
 
 							case "The Left Hand Of Darkness": System.out.println("***Author: URSULA K.LE GUIN ***");
@@ -794,6 +953,7 @@ class books
 
 								science sm29=new science();
 								sm29.same();
+								sm29.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -837,6 +997,7 @@ class books
 
 								action sm30=new action();
 								sm30.same();
+								sm30.goodbye();
 							break;
 
 							case "The Riddle Of The Sands": System.out.println("***Author: ERSKINE CHILDERS ***");
@@ -852,6 +1013,7 @@ class books
 
 								action sm31=new action();
 								sm31.same();
+								sm31.goodbye();
 							break;
 
 							case "The Three Musketeers": System.out.println("***Author: ALEXANDRE DUMAS ***");
@@ -866,6 +1028,7 @@ class books
 
 								action sm32=new action();
 								sm32.same();
+								sm32.goodbye();
 							break;
 
 							case "Treasure Island": System.out.println("***Author: ROBERT LOUIS STEVENSON***");
@@ -882,6 +1045,7 @@ class books
 
 								action sm33=new action();
 								sm33.same();
+								sm33.goodbye();
 							break;
 
 							case "No Plan B": System.out.println("***Author: ANDREW CHILD AND LEE CHILD ***");
@@ -897,6 +1061,7 @@ class books
 
 								action sm34=new action();
 								sm34.same();
+								sm34.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -939,6 +1104,7 @@ class books
 
 								biography sm35=new biography();
 								sm35.same();
+								sm35.goodbye();
 							break;
 
 							case "Wings Of Fire": System.out.println("***Author: DR.A P J ABDUL KALAM ***");
@@ -955,6 +1121,7 @@ class books
 
 								biography sm36=new biography();
 								sm36.same();
+								sm36.goodbye();
 							break;
 
 							case "The Diary Of A Young Girl": System.out.println("***Author: ANNE FRANK ***");
@@ -970,6 +1137,7 @@ class books
 
 								biography sm37=new biography();
 								sm37.same();
+								sm37.goodbye();
 							break;
 
 							case "Tuesdays With Morrie": System.out.println("***Author: MITCH ALBOM ***");
@@ -984,6 +1152,7 @@ class books
 
 								biography sm38=new biography();
 								sm38.same();
+								sm38.goodbye();
 							break;
 
 							case "When Breath Becomes Air": System.out.println("***Author: PAUL KALANITHI ***");
@@ -999,6 +1168,7 @@ class books
 
 								biography sm39=new biography();
 								sm39.same();
+								sm39.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -1045,6 +1215,7 @@ class books
 
 								finance sm40=new finance();
 								sm40.same();
+								sm40.goodbye();
 							break;
 
 							case "The Psychology Of Money": System.out.println("***Author: MORGAN HOUSEL ***");
@@ -1060,6 +1231,7 @@ class books
 
 								finance sm41=new finance();
 								sm41.same();
+								sm41.goodbye();
 							break;
 
 							case "The Richest Man In Babylon": System.out.println("***Author: GEORGE SAMUEL CALSON ***");
@@ -1076,6 +1248,7 @@ class books
 
 								finance sm42=new finance();
 								sm42.same();
+								sm42.goodbye();
 							break;
 
 							case "Think And Grow Rich": System.out.println("***Author: NAPOLEAN HILL ***");
@@ -1092,6 +1265,7 @@ class books
 
 								finance sm43=new finance();
 								sm43.same();
+								sm43.goodbye();
 							break;
 
 							case "One Up On Wall Street": System.out.println("***Author:JOHN ROTHCHILD AND PETER LYNCH ***");
@@ -1108,6 +1282,7 @@ class books
 
 								finance sm44=new finance();
 								sm44.same();
+								sm44.goodbye();
 							break;
 
 							case "Financial Freedom": System.out.println("***Author: GRANT SABATIER ***");
@@ -1122,6 +1297,7 @@ class books
 
 								finance sm45=new finance();
 								sm45.same();
+								sm45.goodbye();
 							break;
 
 							case "The Intelligent Investor": System.out.println("***Author: BENJAMIN GRAHAM ***");
@@ -1138,6 +1314,7 @@ class books
 
 								finance sm46=new finance();
 								sm46.same();
+								sm46.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -1182,6 +1359,7 @@ class books
 
 								spiritual sm47=new spiritual();
 								sm47.same();
+								sm47.goodbye();
 							break;
 
 							case "Autobiography Of Yogi": System.out.println("***Author: PARAMAHANSA YOGANANDA ***");
@@ -1197,6 +1375,7 @@ class books
 
 								spiritual sm48=new spiritual();
 								sm48.same();
+								sm48.goodbye();
 							break;
 
 							case "Think Like A Monk": System.out.println("***Author: JAY SHETTY ***");
@@ -1212,6 +1391,7 @@ class books
 
 								spiritual sm49=new spiritual();
 								sm49.same();
+								sm49.goodbye();
 							break;
 
 							case "Bhagawat Gita": System.out.println("***Author: VYASA ***");
@@ -1228,6 +1408,7 @@ class books
 
 								spiritual sm50=new spiritual();
 								sm50.same();
+								sm50.goodbye();
 							break;
 
 							case "Siddhartha": System.out.println("***Author: HERMANN HESSE ***");
@@ -1243,6 +1424,7 @@ class books
 
 								spiritual sm51=new spiritual();
 								sm51.same();
+								sm51.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -1287,6 +1469,7 @@ class books
 
 								mythology sm52=new mythology();
 								sm52.same();
+								sm52.goodbye();
 							break;
 
 							case "The Secret Of Nagas": System.out.println("***Author: AMISH TRIPATHI ***");
@@ -1302,6 +1485,7 @@ class books
 
 								mythology sm53=new mythology();
 								sm53.same();
+								sm53.goodbye();
 							break;
 
 							case "The Oath Of Vayuputras": System.out.println("***Author: AMISH TRIPATHI ***");
@@ -1317,6 +1501,7 @@ class books
 
 								mythology sm54=new mythology();
 								sm54.same();
+								sm54.goodbye();
 							break;
 
 							case "The Palace Of Illusions": System.out.println("***Author: CHITRA BANERJEE DIVAKARUNI ***");
@@ -1331,6 +1516,7 @@ class books
 
 								mythology sm55=new mythology();
 								sm55.same();
+								sm55.goodbye();
 							break;
 
 							case "The Krishna Key": System.out.println("***Author: ASHWIN SANGHI ***");
@@ -1346,6 +1532,7 @@ class books
 
 								mythology sm56=new mythology();
 								sm56.same();
+								sm56.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -1393,6 +1580,7 @@ class books
 
 								selfhelp sm57=new selfhelp();
 								sm57.same();
+								sm57.goodbye();
 							break;
 
 							case "The Subtle Art Of Not Giving F*ck": System.out.println("***Author: MARK MANSON ***");
@@ -1408,6 +1596,7 @@ class books
 
 								selfhelp sm58=new selfhelp();
 								sm58.same();
+								sm58.goodbye();
 							break;
 
 							case "The Courage To Be Disliked": System.out.println("***Author: FUMITAKE KOGA and ICHIRO KISHIMI***");
@@ -1422,6 +1611,7 @@ class books
 
 								selfhelp sm59=new selfhelp();
 								sm59.same();
+								sm59.goodbye();
 							break;
 
 							case "Power Of Your Subconscious Mind": System.out.println("***Author: JOSEPH MURPHY ***");
@@ -1436,6 +1626,7 @@ class books
 
 								selfhelp sm60=new selfhelp();
 								sm60.same();
+								sm60.goodbye();
 							break;
 
 							case "Thinking Fast And Slow": System.out.println("***Author: DANIEL KAHNEMAN ***");
@@ -1451,6 +1642,7 @@ class books
 
 								selfhelp sm61=new selfhelp();
 								sm61.same();
+								sm61.goodbye();
 							break;
 
 							case "Eat That Frog": System.out.println("***Author: BRAIN TRACY ***");
@@ -1466,6 +1658,7 @@ class books
 
 								selfhelp sm62=new selfhelp();
 								sm62.same();
+								sm62.goodbye();
 							break;
 
 							case "Quiet: The Power Of Introverts": System.out.println("***Author: SUSAN CAIN ***");
@@ -1480,6 +1673,7 @@ class books
 
 								selfhelp sm63=new selfhelp();
 								sm63.same();
+								sm63.goodbye();
 							break;
 
 							case "The 5AM Club": System.out.println("***Author: ROBIN SHARMA ***");
@@ -1495,6 +1689,7 @@ class books
 
 								selfhelp sm64=new selfhelp();
 								sm64.same();
+								sm64.goodbye();
 							break;
 
 							case "Outliers": System.out.println("***Author:	MALCOLM GLADWELL ***");
@@ -1509,6 +1704,7 @@ class books
 
 								selfhelp sm65=new selfhelp();
 								sm65.same();
+								sm65.goodbye();
 							break;
 
 							case "The Secret": System.out.println("***Author: RHONDA BRYNE ***");
@@ -1524,6 +1720,7 @@ class books
 
 								selfhelp sm66=new selfhelp();
 								sm66.same();
+								sm66.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -1568,6 +1765,7 @@ class books
 
 								crime sm67=new crime();
 								sm67.same();
+								sm67.goodbye();
 							break;
 
 							case "The Dry": System.out.println("***Author: JANE HARPER ***");
@@ -1583,6 +1781,7 @@ class books
 
 								crime sm68=new crime();
 								sm68.same();
+								sm68.goodbye();
 							break;
 
 							case "Helter Skelter": System.out.println("***Author: CURT GENTRY and VINCENT BUGLIOSI ***");
@@ -1598,6 +1797,7 @@ class books
 
 								crime sm69=new crime();
 								sm69.same();
+								sm69.goodbye();
 							break;
 
 							case "The Thursday Murder Club": System.out.println("***Author: RICHARD OSMAN ***");
@@ -1613,6 +1813,7 @@ class books
 
 								crime sm70=new crime();
 								sm70.same();
+								sm70.goodbye();
 							break;
 
 							case "A Gambling Man": System.out.println("***Author: DAVID BALDACCI ***");
@@ -1629,6 +1830,7 @@ class books
 
 								crime sm71=new crime();
 								sm71.same();
+								sm71.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
@@ -1672,6 +1874,7 @@ class books
 
 								java sm72=new java();
 								sm72.same();
+								sm72.goodbye();
 							break;
 
 							case "Thinking In Java": System.out.println("***Author: BRUCE ECKEL ***");
@@ -1687,6 +1890,7 @@ class books
 
 								java sm73=new java();
 								sm73.same();
+								sm73.goodbye();
 							break;
 
 							case "Clean Code": System.out.println("***Author: ROBERT CECIL MARTIN ***");
@@ -1701,6 +1905,7 @@ class books
 
 								java sm74=new java();
 								sm74.same();
+								sm74.goodbye();
 							break;
 
 							case "Java In A Nutshell": System.out.println("***Author: BENJAMIN EVANS and DAVID FLANAGAN ***");
@@ -1716,6 +1921,7 @@ class books
 
 								java sm75=new java();
 								sm75.same();
+								sm75.goodbye();
 							break;
 
 							case "Java Puzzlers": System.out.println("***Author: JOSHUA BLOCH and NEAL GAFTER ***");
@@ -1730,6 +1936,7 @@ class books
 
 								java sm76=new java();
 								sm76.same();
+								sm76.goodbye();
 							break;
 
 							default:System.out.println("PLEASE ENTER THE CORRECT SPELLING");
